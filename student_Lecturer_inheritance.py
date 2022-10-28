@@ -1,6 +1,6 @@
 # Creating a parent class student
 class Student:
-    # Intialization of variables
+    # Intialization of variables using the __init__() dunder method and this automatically runs whenever the Code is executed
     def __init__(self,name,age,RegNo,AccessNumber,Course):
         self.name=name
         self.age=age
