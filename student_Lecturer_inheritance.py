@@ -15,7 +15,8 @@ class Student:
         print("RegNo: ",self.RegNo)
         print("AccessNumber: ",self.AccessNumber)
         print("Course: ",self.Course)    
-    #Creating the Lecturer class and this will inherit from the students 
+    #Creating the Lecturer class and this will inherit from the students
+    # The Lecturer class for this case will act as the Child class and this will inherit the similar attributes from the Student parent class
 class Lecturer(Student):
     # First create the Lecturer constructor and initialize the Attributes 
     def __init__(self,name,age,RegNo,AccessNumber,Course,salary,department):
